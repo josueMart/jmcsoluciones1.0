@@ -15,6 +15,7 @@
     	
 		wp_enqueue_script( 'Tether_js', get_template_directory_uri() . '/js/tether.min.js',  array('jquery'), '1.0.0', true );
     	wp_enqueue_script( 'Bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js',  array('jquery'), '1.0.0', true );
+        wp_enqueue_script( 'Fontawesome_js', get_template_directory_uri() . '/js/fontawesome-all.js',  array('jquery'), '1.0.0', true );
 
     
     }
