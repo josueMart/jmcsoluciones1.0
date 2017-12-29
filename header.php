@@ -89,6 +89,24 @@
 						          <a class="dropdown-item" href="#">Something else here</a>
 						        </div>
 						      </li>
+						      <li class="nav-item dropdown">
+						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						          Refacciones
+						        </a>
+						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						          <a class="dropdown-item" href="#">Moviles</a>
+						          <a class="dropdown-item" href="#">Servidores</a>
+						          <a class="dropdown-item" href="#">Accesorios</a>
+						          <a class="dropdown-item" href="#">Copiadoras</a>
+						          <a class="dropdown-item" href="#">PC de Escritorio</a>
+						          <a class="dropdown-item" href="#">Portatiles</a>
+						          <a class="dropdown-item" href="#">Impresoras</a>
+						          <a class="dropdown-item" href="#">Proyectores</a>
+
+					          <div class="dropdown-divider"></div>
+						          <a class="dropdown-item" href="#">Todas</a>
+						        </div>
+						      </li>
 						      <li class="nav-item">
 						        <a class="nav-link" href="#">Empresa</a>
 						      </li>
