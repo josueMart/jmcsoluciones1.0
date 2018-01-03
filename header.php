@@ -21,42 +21,26 @@
 			.col-md   Mediano (medium)              - Tablets                 Mas de 768px y menos de 992px
 			.col-lg   Largo (Large)                 - Computadoras            Mas de 992px y menos de 1200px
 			.col-xl   Extra Largo (Extra large)     - Computadoras            Mas de 1200px -->
-			<div class="container header-bar">
-				<div class="row">
-					<div class="col-3">
-						<picture id="logotipo">
-							<img src="http://localhost:8888/wp-content/uploads/2017/12/Logo6.png" alt="">
-						</picture>
-					</div>
-					<div class="col-9">
-						<ul class="nav justify-content-end">
-							  <li class="nav-item">
-							    <a class="nav-link active" href="#">Facebook</a>
-							  </li>
-							  <li class="nav-item">
-							    <a class="nav-link" href="#">Twitter</a>
-							  </li>
-						</ul>
-					</div>			
-				</div>
-				<div class="row">
-					<div class="col">
-						<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-						  <a class="navbar-brand" href="#">Menu</a>
-						  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						    <span class="navbar-toggler-icon"></span>
-						  </button>
+			<div class="row">
+				<div class="container-fluid header-bar">
+				<nav class="navbar navbar-expand-lg navbar-secondary bg-secondary menu-principal">
+				  <a class="navbar-brand" href="#">
+				  	<img src="http://localhost:8888/wp-content/uploads/2018/01/logo6.1.2.png" width="285" height="auto" alt="">
+				  </a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
 
-						  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-						    <ul class="navbar-nav mr-auto">
-						      <li class="nav-item active">
-						        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				     <li class="nav-item active">
+						        <a class="nav-link itemnav" href="#">Inicio <span class="sr-only">(current)</span></a>
 						      </li>
-						      <li class="nav-item">
-						        <a class="nav-link" href="#">Soluciones</a>
+						      <li class="nav-item ">
+						        <a class="nav-link itemnav" href="#">Soluciones</a>
 						      </li>
 						      <li class="nav-item dropdown">
-						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						        <a class="nav-link dropdown-toggle itemnav" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						          Hardware
 						        </a>
 						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -74,7 +58,7 @@
 						        </div>
 						      </li>
 						      <li class="nav-item dropdown">
-						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						        <a class="nav-link dropdown-toggle itemnav" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						          Software
 						        </a>
 						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -90,7 +74,7 @@
 						        </div>
 						      </li>
 						      <li class="nav-item dropdown">
-						        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						        <a class="nav-link dropdown-toggle itemnav" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						          Refacciones
 						        </a>
 						        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -108,21 +92,21 @@
 						        </div>
 						      </li>
 						      <li class="nav-item">
-						        <a class="nav-link" href="#">Empresa</a>
+						        <a class="nav-link itemnav" href="#">Empresa</a>
 						      </li>
 						      <li class="nav-item">
-						        <a class="nav-link" href="#">Contacto</a>
+						        <a class="nav-link itemnav" href="#">Contacto</a>
 						      </li>
-						    </ul>
-						    <form class="form-inline my-2 my-lg-0">
-						      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-						      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-						    </form>
-						  </div>
-						</nav>
-					</div>
-				</div>
+				    </ul>
+				    <form class="form-inline my-2 my-lg-0">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				      <button class="btn btn-outline-success my-2 my-sm-0 btn-nav" type="submit">Search</button>
+				    </form>
+				  </div>
+				</nav>
 					
 			</div>
+			</div>
+			
 	</header>
 	
