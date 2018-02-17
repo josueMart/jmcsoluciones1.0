@@ -1,5 +1,5 @@
 <footer>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row row-footer">
 			<div class="col-4 col-footer">
 				<h2>INFORMACIÓN DE LA EMPRESA</h2>
