@@ -10,26 +10,48 @@ Version: 1.0
 @import url(css/normalize.css);
 @import url(css/bootstrap.min.css);
 
+.row{
+	 /*border: 1px solid gray;*/
+}
 
 
 body{
-	// background: #fff;
+
 	font-family: 'Roboto', sans-serif; 
 
 }
-// .header-bar{
-// 	background-color: #fff;
-// }
-#logotipo img{
-	 border:none;
+.header-bar{
+	font-size: 1.25em;
+}
+header{
+	font-size: .9em;
+}
+
+.menu-principal{
+	margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+.itemnav{
+	color: #fff;
+}
+#buttonNavbar{
+	color: white;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.slide-img{
+	border:none;
      padding:0;
      margin:0;
-     width:130%;
+     width:100%;
      height:auto;
 }
 
 .col{
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 .col-footer{
 	background-color: #34495e;
@@ -53,4 +75,107 @@ body{
 .link-footer-icon{
 	color: #fff;
 	font-size: 1.8em;
+}
+
+.img-access-direct{
+	height: 100px;
+    display: block;
+    margin: 0 auto 20px;
+}
+#access-direct-row{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 40px
+}
+.column-name-direct{
+	text-align: center;
+}
+.access-direct{
+	border: 1px solid #95a5a6;
+	border-radius: 5px
+}
+
+
+.name-access-direct p:hover{
+	color: #8e44ad;
+}
+
+
+.costumers{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.convert-brand-img{
+	max-width: 135%;
+}
+
+.thumbnail{
+	max-width: 90%;
+}
+.graycolor{
+	
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+#principales-marcas{
+	margin-top: 20px;
+	text-align: center;
+    font-size: 1.5em;
+    color: #34495e;
+    border-bottom: 2px solid #2ecc71;
+    margin-bottom: 10px;
+}
+.resume-product{
+	color: #2980b9;
+}
+.price-product{
+	background: #2980b9;
+	color: #fff;
+	font-size: 1.8em;
+	text-align: center;
+}
+.image-brand{
+	text-align: center;
+}
+.image-brand img{
+	max-width: 55%;
+	height: auto;
+	position: center;
+
+}
+.conditions-product{
+	   padding: 3px;
+    background: #fff;
+    color: #2c3e50;
+    font-size: .9rem;
+}
+.btn-masinfo{
+	text-align: center;
+	    background: #002060;
+}
+.btn-masinfo-a{
+	color: #fff;
+}
+.cards-promos{
+	margin-bottom: 20px;
+	margin-top: 60px;
+
+}
+.card-body{
+	padding-bottom: 3px;
+    padding-top: 3px;
+}
+.brands{
+	margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: gainsboro;
+}
+
+.brands-logo{
+	margin-top:3px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.nav-link{
+	color: white;
 }
