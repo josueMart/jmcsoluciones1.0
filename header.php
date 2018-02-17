@@ -23,11 +23,11 @@
 			.col-xl   Extra Largo (Extra large)     - Computadoras            Mas de 1200px -->
 			<div class="row">
 				<div class="container-fluid header-bar">
-				<nav class="navbar navbar-expand-lg navbar-secondary bg-secondary menu-principal">
+				<nav class="navbar navbar-expand-lg navbar-light bg-warning menu-principal">
 				  <a class="navbar-brand" href="#">
-				  	<img src="http://localhost:8888/wp-content/uploads/2018/01/logo6.1.2.png" width="285" height="auto" alt="">
+				  	<img src="http://localhost:8888/wp-content/uploads/2018/02/Logo6.png" width="285" height="auto" alt="">
 				  </a>
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="buttonNavbar">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
 
@@ -52,7 +52,6 @@
 						          <a class="dropdown-item" href="#">Gaming</a>
 						          <a class="dropdown-item" href="#">Impresion</a>
 						          <a class="dropdown-item" href="#">Punto de Venta</a>
-
 					          <div class="dropdown-divider"></div>
 						          <a class="dropdown-item" href="#">Todas</a>
 						        </div>
@@ -71,6 +70,9 @@
 						          <a class="dropdown-item" href="#">Juegos</a>
 						          <div class="dropdown-divider"></div>
 						          <a class="dropdown-item" href="#">Something else here</a>
+						          <a class="nav-link dropdown-toggle itemnav" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						          Refacciones
+						        </a>
 						        </div>
 						      </li>
 						      <li class="nav-item dropdown">
@@ -94,13 +96,10 @@
 						      <li class="nav-item">
 						        <a class="nav-link itemnav" href="#">Empresa</a>
 						      </li>
-						      <li class="nav-item">
-						        <a class="nav-link itemnav" href="#">Contacto</a>
-						      </li>
 				    </ul>
 				    <form class="form-inline my-2 my-lg-0">
-				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-				      <button class="btn btn-outline-success my-2 my-sm-0 btn-nav" type="submit">Search</button>
+				      <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+				      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
 				    </form>
 				  </div>
 				</nav>
