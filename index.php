@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <!-- SlidePromos -->
-<div class="container">
+<div class="container-fluid">
  <div class="row">
   <div class="col">
    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -50,7 +50,7 @@
     </div>
     <div class="row name-access-direct">
       <div class="col column-name-direct">
-        <p class="">Laptops</p>
+        <p class="">Computadoras</p>
       </div>
     </div>
     </a>
@@ -62,7 +62,7 @@
     </div>
     <div class="row name-access-direct">
       <div class="col column-name-direct">
-        <p class="">Laptops</p>
+        <p class="">Impresión</p>
       </div>
     </div>
     </a>
@@ -74,7 +74,7 @@
     </div>
     <div class="row name-access-direct">
       <div class="col column-name-direct">
-        <p class="">Laptops</p>
+        <p class="">Refacciones</p>
       </div>
     </div>
     </a>
@@ -86,7 +86,7 @@
     </div>
     <div class="row name-access-direct">
       <div class="col column-name-direct">
-        <p class="">Laptops</p>
+        <p class="">Software</p>
       </div>
     </div>
     </a>
@@ -98,77 +98,91 @@
     </div>
     <div class="row name-access-direct">
       <div class="col column-name-direct">
-        <p class="">Laptops</p>
+        <p class="">Gaming</p>
       </div>
     </div>
     </a>
   </div>
+
 
 
 </div>
 <!-- Principales ofertas -->
 
-<div class="row justify-content-around">
+<div class="row justify-content-around cards-promos">
   <div class="col-lg-3">
-    <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card" style="width: 17.5rem;">
+  <img class="card-img-top" src="http://localhost:8888/wp-content/uploads/2017/12/monitor.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">Monitor AOC E1670SWU/WM</h5>
+    <p class="card-text resume-product">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">Cras justo odio</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
+    <li class="list-group-item price-product">$3,452.32</li>
+    <li class="list-group-item image-brand"><img src="http://localhost:8888/wp-content/uploads/2017/12/philips.png" alt=""></li>
+    <li class="list-group-item conditions-product">Precios sujetos a cambios sin previo aviso.</li>
   </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+  <div class="card-body btn-masinfo">
+    <a href="#" class="card-link btn-masinfo-a">Mas información</a>
   </div>
 </div>
   </div>
   <div class="col-lg-3">
-    <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card" style="width: 17.5rem;">
+  <img class="card-img-top" src="http://localhost:8888/wp-content/uploads/2017/12/monitor.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">Monitor AOC E1670SWU/WM</h5>
+    <p class="card-text resume-product">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">Cras justo odio</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
+    <li class="list-group-item price-product">$3,452.32</li>
+    <li class="list-group-item image-brand"><img src="http://localhost:8888/wp-content/uploads/2017/12/philips.png" alt=""></li>
+    <li class="list-group-item conditions-product">Precios sujetos a cambios sin previo aviso.</li>
   </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+  <div class="card-body btn-masinfo">
+    <a href="#" class="card-link btn-masinfo-a">Mas información</a>
   </div>
 </div>
   </div>
-  <div class="col-lg-3">
-    <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="col-lg-3">
+    <div class="card" style="width: 17.5rem;">
+  <img class="card-img-top" src="http://localhost:8888/wp-content/uploads/2017/12/monitor.jpg" alt="Card image cap">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">Monitor AOC E1670SWU/WM</h5>
+    <p class="card-text resume-product">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">Cras justo odio</li>
-    <li class="list-group-item">Dapibus ac facilisis in</li>
-    <li class="list-group-item">Vestibulum at eros</li>
+    <li class="list-group-item price-product">$3,452.32</li>
+    <li class="list-group-item image-brand"><img src="http://localhost:8888/wp-content/uploads/2017/12/philips.png" alt=""></li>
+    <li class="list-group-item conditions-product">Precios sujetos a cambios sin previo aviso.</li>
   </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
+  <div class="card-body btn-masinfo">
+    <a href="#" class="card-link btn-masinfo-a">Mas información</a>
   </div>
 </div>
   </div>
-
+    <div class="col-lg-3">
+    <div class="card" style="width: 17.5rem;">
+  <img class="card-img-top" src="http://localhost:8888/wp-content/uploads/2017/12/monitor.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Monitor AOC E1670SWU/WM</h5>
+    <p class="card-text resume-product">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item price-product">$3,452.32</li>
+    <li class="list-group-item image-brand"><img src="http://localhost:8888/wp-content/uploads/2017/12/philips.png" alt=""></li>
+    <li class="list-group-item conditions-product">Precios sujetos a cambios sin previo aviso.</li>
+  </ul>
+  <div class="card-body btn-masinfo">
+    <a href="#" class="card-link btn-masinfo-a">Mas información</a>
+  </div>
+</div>
+  </div>
 
 
 </div>
 <!-- Carrousel Parts -->
-<div class="row">
+<!-- <div class="row">
   <div class="col">
    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -197,118 +211,119 @@
     </a>
   </div>
 </div>
-</div>
-<!-- Principales Clientes -->
+</div> -->
+<!-- Principales Marcas -->
 
-<section class="costumers">
+<section class="brands container-fluid ">
   <p id="principales-marcas">Nuestras principales marcas</p>
-  <div class="row justify-content-around">
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/xerox.png" alt="" class="convert-brand-img"> 
+  <div class="row justify-content-around ">
+  
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/xbox.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/xbox.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/western.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/western.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/toshiba.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/toshiba.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/sony.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/sony.png" alt="" class="convert-brand-img"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/samsung.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/samsung.png" alt="" class="convert-brand-img "> 
   </div>
 
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/philips.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/philips.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/perfect-choice.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/perfect-choice.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/nvidia.png" alt="" class="thumbnail"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/nvidia.png" alt="" class="thumbnail "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/microsoft.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/microsoft.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/manhattan.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/xerox.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/logitech.png" alt="" class="thumbnail"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/manhattan.png" alt="" class="convert-brand-img "> 
   </div>
-</div>
-<div class="row justify-content-around">
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/lg.png" alt="" class="thumbnail"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/lenovo.png" alt="" class="convert-brand-img"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/lanix.png" alt="" class="thumbnail"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/kingston.png" alt="" class="convert-brand-img"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/kaspersky.png" alt="" class="convert-brand-img"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/jvc.png" alt="" class="thumbnail"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/intel.png" alt="" class="thumbnail"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/hp.png" alt="" class="thumbnail"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/ghia.png" alt="" class="convert-brand-img"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/gateway.png" alt="" class="thumbnail"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/epson.png" alt="" class="convert-brand-img"> 
-  </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/dell.png" alt="" class="thumbnail"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/logitech.png" alt="" class="thumbnail "> 
   </div>
 </div>
 <div class="row justify-content-around">
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/cisco.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/lg.png" alt="" class="thumbnail "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/canon.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/lenovo.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/brother.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/lanix.png" alt="" class="thumbnail "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/ati.png" alt="" class="thumbnail"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/kingston.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/aspel.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/kaspersky.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/apple.png" alt="" class="thumbnail"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/jvc.png" alt="" class="thumbnail "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/amd.png" alt="" class="thumbnail"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/intel.png" alt="" class="thumbnail "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/adata.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/hp.png" alt="" class="thumbnail "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/acteck.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/ghia.png" alt="" class="convert-brand-img "> 
   </div>
-  <div class="col-lg-1">
-    <img src="http://localhost:8888/wp-content/uploads/2017/12/acer.png" alt="" class="convert-brand-img"> 
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/gateway.png" alt="" class="thumbnail "> 
+  </div>
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/epson.png" alt="" class="convert-brand-img "> 
+  </div>
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/dell.png" alt="" class="thumbnail "> 
+  </div>
+</div>
+<div class="row justify-content-around">
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/cisco.png" alt="" class="convert-brand-img "> 
+  </div>
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/canon.png" alt="" class="convert-brand-img "> 
+  </div>
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/brother.png" alt="" class="convert-brand-img "> 
+  </div>
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/ati.png" alt="" class="thumbnail "> 
+  </div>
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/aspel.png" alt="" class="convert-brand-img "> 
+  </div>
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/apple.png" alt="" class="thumbnail "> 
+  </div>
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/amd.png" alt="" class="thumbnail "> 
+  </div>
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/adata.png" alt="" class="convert-brand-img "> 
+  </div>
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/acteck.png" alt="" class="convert-brand-img "> 
+  </div>
+  <div class="col-lg-1 col-md-2 col-sm-2 col-2 brands-logo">
+    <img src="http://localhost:8888/wp-content/uploads/2017/12/acer.png" alt="" class="convert-brand-img "> 
   </div>
 </div>
 </section>
